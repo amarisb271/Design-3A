@@ -102,6 +102,34 @@
     </div>
 </main>
 <script>
+const clr = [
+    "Indian Red",
+    "MediumVioletRed",
+    "LightSalmon",
+    "DarkKhai",
+    "Lavender",
+    "Chartreuse",
+    "DodgerBlue",
+    "Chocolate",
+    "LavenderBlush",
+    "LightSlateGray",
+]
+
+const shapes = document.querySelectorAll("shape")
+shapes.forEach(function(shape){
+    let randomRadius = Math.floor(Math.random() * 100)
+    let randomColorIndex = Math.floor(Math.random() * clr.length)
+    shape.style.background = clr9[randomColorIndex] 
+    shape.style.borderRadius = `${randomColorIndex}px 0px ${randomRadius}px`
+    shape.addEventListener("mouseover", function) {
+        
+    }
+    
+
+})
+
+
+
 
 </script>
 </body>
