@@ -1,0 +1,20 @@
+body {
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    background: beige
+
+}
+
+p {
+    font-family: arial;
+    font-size: 24px;
+    color: blueviolet;
+}
+h1{ 
+    color:aliceblue;
+    font-size: 55px;
+}
+
+@keyframes animationNameGoesHere {
+    
+}
