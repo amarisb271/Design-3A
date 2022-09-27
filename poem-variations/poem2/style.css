@@ -9,10 +9,14 @@ title {
     font-size: 60px;
     color: rgb(0, 0, 0);
 }
-
+h1{
+    color: darkblue;
+    font-size: 40px;
+}
 p {
     font-family: arial;
     font-size: 24px;
+    color: white
 }
 h1{
 
